@@ -55,7 +55,7 @@ while True:
             functions.write_todos(todos)
             print(f"Marking the to-do {complete_todo} as complete.")
         except IndexError:
-            print('Please enter a number within todo list limit!')
+            print('Please enter a number within to-do list limit!')
             continue
     elif user_action.startswith('exit'):
         break
